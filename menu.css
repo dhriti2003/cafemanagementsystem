@@ -1,0 +1,92 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(168, 215, 15);
+    font-size: 28px;
+}
+.welcome-box
+{                                   
+    width: 370px;
+    height: 500px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 70px 30px;
+    border-radius: 12px;
+    color: white;
+    position:absolute;
+    top: 200%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    align-content: center;
+    justify-content: center;
+    margin-top:100px;
+}
+
